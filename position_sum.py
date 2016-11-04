@@ -29,3 +29,18 @@ def run_tests():
 # Edit this code
 def pos_sum(word, character):
 
+    pos = len(word)
+    count = 0
+
+    for n in range(pos):
+
+        if word[n] == character:
+           count = count + n
+
+    print(count)
+            
+
+    
+
+    
+
